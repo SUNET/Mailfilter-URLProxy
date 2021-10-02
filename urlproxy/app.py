@@ -34,11 +34,11 @@ def caniturlproxy():
         answers = dns.resolver.resolve(fqdn, 'A')
         for iter in answers:
             ipv4 = iter.to_text()
-            with geoip2.database.Reader('/home/debian/flask-urlproxy/data/GeoLite2-City.mmdb') as reader:
+            with geoip2.database.Reader('/opt/flask-urlproxy/data/GeoLite2-City.mmdb') as reader:
                 response = reader.city(ipv4)
                 country = response.country.name
                 city = response.city.name
-            with geoip2.database.Reader('/home/debian/flask-urlproxy/data/GeoLite2-ASN.mmdb') as reader:
+            with geoip2.database.Reader('/opt/flask-urlproxy/data/GeoLite2-ASN.mmdb') as reader:
                 response = reader.asn(ipv4) 
                 asn = response.autonomous_system_number
                 asnname = response.autonomous_system_organization
@@ -46,7 +46,7 @@ def caniturlproxy():
         ipv4 = 'NXDOMAIN'
     except dns.exception.DNSException:
         ipv4 = 'SERVFAIL'
-    return render_template('urlproxy.html', title='CanIt', url=(url), fqdn=(fqdn), ipv4=(ipv4), country=(country), city=(city), asn=(asn), asnname=(asnname))
+    return render_template('urlproxy.html', title='CanIt-Domain-PRO', url=(url), fqdn=(fqdn), ipv4=(ipv4), country=(country), city=(city), asn=(asn), asnname=(asnname))
 
 @app.route("/canit/static/<path:path>")
 def static_dir(path):
