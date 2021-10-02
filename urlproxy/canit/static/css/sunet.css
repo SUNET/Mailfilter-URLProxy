@@ -1,0 +1,429 @@
+body {
+	margin: 0;
+	font-size: 11px;
+}
+
+a img {
+	border: 0;
+}
+
+.logo {
+	width: 70px;
+	height: 80px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+		
+}
+
+em {
+	font-weight: bold;
+	font-variant: normal;
+}
+
+h1 {
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 1px solid #000;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom: 1px solid #000;
+}
+
+#Header {
+	height: 100px;
+	position: relative;
+	width: 100%;
+	background: url(../images/header.jpg) center top repeat-x;
+}
+
+#Logo {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#StreamInfo {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -300px;
+	text-align: center;
+}
+
+#AcctInfo {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-align: right;
+	padding-right: 5px;
+}
+
+#AcctInfo ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#MainNav ul {
+	height: 20px;
+	background-color: #FFD700;
+	color: #000;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#MainNav li {
+	display: inline;
+}
+
+#MainNav li a {
+	display: block;
+	float: left;
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0 10px;
+	line-height: 20px;
+	height: 20px;
+	text-decoration: none;
+}
+
+#MainNav li a:hover {
+	color: #000;
+}
+
+#MainNav li.active a {
+	background-color: #FFFFE0;
+}
+
+#SubNav ul {
+	height: 20px;
+	background-color: #fff;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#SubNav li {
+	display: inline;
+}
+
+#SubNav li a {
+	display: block;
+	float: left;
+	color: #000;
+	background-color: #ececec;
+	font-size: 11px;
+	padding: 0 10px;
+	line-height: 20px;
+	height: 20px;
+	text-decoration: none;
+}
+
+#SubNav li a:hover {
+	color: #000;
+}
+
+#SubNav li:last-child a {
+	background: #ececec url('images/br-corner.png') right bottom no-repeat;
+	padding-right: 20px;
+}
+
+#SubNav li.active a {
+	background-color: #ccc;
+	color: #111;
+}
+
+#ItemNav ul {
+	clear: both;
+	display: block;
+	float: left;
+	width: 150px;
+	background: #ddd url('images/br-corner.png') right bottom no-repeat;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#ItemNav li {
+	display: block;
+	width: 130px;
+	font-size: 11px;
+	padding: 0 10px;
+	line-height: 18px;
+	border-bottom: 1px solid #fff;
+	text-decoration: none;
+}
+
+#ItemNav li a {
+	color: #29f;
+	text-decoration: none;
+}
+
+#ItemNav li a:hover {
+	color: #fff;
+}
+
+#ItemNav li.active {
+	background-color: #888;
+}
+
+#ItemNav li.active a {
+	color: #fff;
+	font-weight: bold;
+}
+
+#QuickNav {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+#QuickNav ul {
+	height: 20px;
+	background: #888 url(images/tr-corner.png) top right no-repeat;
+	color: #000;
+	margin: 0 50px;
+	padding: 0;
+	list-style: none;
+}
+
+#QuickNav li {
+	float: left;
+	display: block;
+	font-size: 11px;
+	padding: 0 10px;
+	line-height: 20px;
+	height: 20px;
+}
+
+#QuickNav li:first-child {
+	background: #888 url(images/tl-corner.png) top left no-repeat;
+}
+
+#QuickNav li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#QuickNav li a:hover {
+	color: #29f;
+}
+
+#Content {
+	margin: 0 10px;
+}
+
+#Content.WithItemBar {
+	margin-left: 160px;
+}
+
+#Footer {
+	text-align: center;
+	font-size: 9px;
+	padding: 5px 0 25px 0;
+}
+
+#LoginBox {
+	width: 700px;
+	margin: 20px auto;
+	text-align: center;
+	background: #ddd url(images/tr-corner.png) top right no-repeat;
+}
+
+#LoginBox h1 {
+	background: url(images/tl-corner.png) top left no-repeat;
+	padding-top: 10px;
+	border: 0;
+}
+
+#LoginBox h2 {
+	border: 0;
+}
+
+#LoginBox .LoginImage {
+	float:left;
+	padding: 15px 0 0 15px;
+}
+
+#LoginBox .LoginForm {
+	background: url(images/br-corner.png) bottom right no-repeat;
+	padding: 0;
+}
+
+#LoginBox form {
+	padding: 15px 15px 0 0;
+}
+
+#LoginBox table {
+	border: 0;
+}
+
+#LoginBox .note {
+	clear: both;
+	padding: 10px 0;
+	background: url(images/bl-corner.png) bottom left no-repeat;
+}
+
+.help {
+	background-color: #ddd;
+	border: 1px solid #888;
+	border-top: 0;
+	padding: 2px 5px;
+	min-height: 15px;
+	line-height: 15px;
+	margin-bottom: 5px;
+}
+
+.manual-link {
+	float: right;
+	height: 15px;
+	line-height: 15px;
+}
+
+.pager {
+	text-align: right;
+}
+
+.curpage, a {
+	padding: 0 3px;
+}
+
+.curpage {
+	background-color: #888;
+	color: #fff;
+}
+
+.Filter {
+	background-color: #ddd;
+	border-top: 1px solid #888;
+	border-left: 1px solid #888;
+	border-right: 1px solid #888;
+}
+
+.IntegratedControls {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.IntSection {
+	display: inline-block;
+	margin: 5px;
+	padding: 0;
+	background: #eee url(images/br-corner.png) bottom right no-repeat;
+}
+
+.IntSection .heading {
+	background: url(images/tr-corner.png) top right no-repeat;
+}
+
+.IntSection h2 {
+	margin: 0;
+	padding: 3px 0 0 0;
+	border: 0;
+	text-align: center;
+	background: url(images/tl-corner.png) top left no-repeat;
+}
+
+.IntSection form {
+	padding: 5px 10px 10px 10px;
+	background: url(images/bl-corner.png) bottom left no-repeat;
+}
+
+.IntSection p {
+	padding: 0;
+	margin: 0;
+}
+
+.error {
+	background-color: #fdd;
+	border: 1px solid #888;
+	margin: 0 50px;
+	text-align: center;
+	padding: 5px;
+}
+
+div.infomsg {
+	color: #008000;
+	background-color: #DDFFDD;
+	padding: 10px 10px 0px 10px;
+	border: 1px solid #00FF00;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+
+table.std {
+	border: 1px solid #888;
+	border-top: 0;
+}
+
+tr.toprow {
+	background-color: #888;
+	color: #fff;
+}
+
+tr.daterow {
+    background-color: #dde;
+}
+
+th {
+	font-weight: bold;
+}
+
+tr.oddrow {
+	background-color: #eee;
+}
+
+.warning {
+	color: #840;
+}
+
+.bad {
+	color: #c00;
+}
+
+.good {
+	color: #0A0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input.hilite {
+    	background-color: #FFFFFF;
+}
+
+input.hilite:disabled {
+    	background-color: #DDDDDD;
+}
+
+input.hilite:focus {
+    	background-color: #FFFFD0;
+}
+
+ul.guides {
+    display: inline;
+    list-style: none;
+}
+
+ul.guides li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}

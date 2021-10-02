@@ -1,0 +1,128 @@
+tr.audit-header-row {
+    background-color: #DDDDDD;
+}
+
+tr.audit-insert {
+    background-color: #DDFFDD;
+}
+
+tr.audit-delete {
+    background-color: #FFDDDD;
+}
+
+tr.audit-update {
+    background-color: #DDDDFF;
+}
+
+span.audit-val-old-changed {
+    background-color: #FFDDDD;
+    font-style: italic;
+}
+
+span.audit-val-new-changed {
+    background-color: #DDFFDD;
+    font-weight: bold;
+}
+
+span.incident_from_name {
+    background-color: #E8E8E8;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #D0D0D0;
+    border-right-width: 1px;
+    border-right-color: #D0D0D0;
+    border-right-style: solid;
+}
+
+.logview-line-odd, .logview-line-even {
+    font-family: monospace;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    text-indent: -4em;
+    padding-left: 4em;
+}
+
+.logview-line-odd, .logview-explanation-odd {
+    background-color: #FFFFFF;
+}
+
+.logview-line-even, .logview-explanation-even {
+    background-color: #EEEEEE;
+}
+
+.logview-explanation-even, .logview-explanation-odd {
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.logview-explanation-list {
+    position: relative;
+    left: 48px;
+    top: -16px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 64px;
+}
+.logview-explained-time {
+    color: #000088;
+}
+
+.archive_query {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #EEEEFF;
+}
+
+.archive_q_data {
+    color: #330000;
+    background-color: #FFFFEE;
+}
+
+.archive_q_expr_logop {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.archive_selected_folder {
+    padding: 2px;
+    border-style: outset;
+    border-color: #e7e7e7;
+    border-width: 2px;
+    background-color: #F0F0FF;
+}
+
+div.message-body-preview {
+    font-family: monospace;
+    white-space: pre;
+}
+
+.regex1 {
+    background-color: #80FFFF;
+    color: #600000;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.regex2 {
+    background-color: #FFFF80;
+    color: #006000;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.msg-mime-headers {
+    background-color: #E0E0E0;
+}
+
+.smtp-server-indicator, .smtp-server-logline {
+    background-color: #FFDDDD;
+}
+
+.smtp-client-indicator, .smtp-client-logline {
+    background-color: #DDDDFF;
+}
+
+.smtp-error-indicator, .smtp-error-logline {
+    background-color: #FFFFC0;
+    font-weight: bold;
+}
