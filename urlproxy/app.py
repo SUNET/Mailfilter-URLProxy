@@ -4,7 +4,6 @@ __author__ = 'pettai'
 from flask import Flask, render_template, request, send_from_directory
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
-import os
 import urllib
 import base64
 import dns.resolver

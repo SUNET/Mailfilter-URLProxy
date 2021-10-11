@@ -1,4 +1,4 @@
-# flask-urlproxy
+# URLProxy (CanIt)
 
 "URLProxy" is a feature in CanIt-Domain-PRO email filtering software, that
 handles rewritten (proxied) URLs in emails that has been rewritten
